@@ -1,7 +1,21 @@
 {
   "recommendations": [
-    
     "nrwl.angular-console",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "formulahendry.auto-rename-tag",
+    "jannisx11.batch-rename-extension",
+    "aaron-bond.better-comments",
+    "wmaurer.change-case",
+    "naumovs.color-highlight",
+    "dbaeumer.vscode-eslint",
+    "editorconfig.editorconfig",
+    "oderwat.indent-rainbow",
+    "ecmel.vscode-html-css",
+    "eamodio.gitlens",
+    "davidanson.vscode-markdownlint",
+    "pnp.polacode",
+    "medo64.render-crlf",
+    "ms-vscode.sublime-keybindings",
+    "angular.ng-template"
   ]
 }

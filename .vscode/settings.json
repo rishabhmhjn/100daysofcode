@@ -1,0 +1,8 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": [".commitlintrc.json", ".commitlintrc"],
+      "url": "https://json.schemastore.org/commitlintrc.json"
+    }
+  ]
+}
