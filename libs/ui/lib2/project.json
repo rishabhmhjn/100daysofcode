@@ -1,0 +1,26 @@
+{
+  "name": "ui-lib2",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/ui/lib2/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/ui/lib2",
+        "main": "libs/ui/lib2/src/index.ts",
+        "tsConfig": "libs/ui/lib2/tsconfig.lib.json",
+        "assets": ["libs/ui/lib2/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/ui/lib2/**/*.ts"]
+      }
+    }
+  },
+  "tags": []
+}

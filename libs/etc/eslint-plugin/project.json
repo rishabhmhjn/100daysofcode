@@ -1,0 +1,26 @@
+{
+  "name": "etc-eslint-plugin",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/etc/eslint-plugin/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/esbuild:esbuild",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/etc/eslint-plugin",
+        "main": "libs/etc/eslint-plugin/src/index.js",
+        "tsConfig": "libs/etc/eslint-plugin/tsconfig.lib.json",
+        "assets": ["libs/etc/eslint-plugin/*.md"]
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/etc/eslint-plugin/**/*.js"]
+      }
+    }
+  },
+  "tags": []
+}

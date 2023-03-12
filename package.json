@@ -11,10 +11,21 @@
     "@commitlint/cli": "^17.4.4",
     "@commitlint/config-angular": "^17.4.4",
     "@commitlint/config-conventional": "^17.4.4",
+    "@nrwl/esbuild": "15.8.5",
+    "@nrwl/eslint-plugin-nx": "15.8.5",
     "@nrwl/js": "15.8.5",
+    "@nrwl/linter": "15.8.5",
     "@nrwl/workspace": "15.8.5",
+    "@rishabhmhjn/eslint-plugin": "link:./libs/etc/eslint-plugin",
+    "@types/node": "18.7.1",
+    "@typescript-eslint/eslint-plugin": "^5.36.1",
+    "@typescript-eslint/parser": "^5.36.1",
+    "esbuild": "^0.17.5",
+    "eslint": "~8.15.0",
+    "eslint-config-prettier": "8.1.0",
     "husky": "^8.0.3",
     "nx": "15.8.5",
-    "prettier": "^2.6.2"
+    "prettier": "^2.6.2",
+    "typescript": "~4.9.5"
   }
 }
