@@ -16,6 +16,7 @@
     "pnp.polacode",
     "medo64.render-crlf",
     "ms-vscode.sublime-keybindings",
-    "angular.ng-template"
+    "angular.ng-template",
+    "firsttris.vscode-jest-runner"
   ]
 }

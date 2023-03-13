@@ -16,6 +16,9 @@
     "baseUrl": ".",
     "paths": {
       "@rishabhmhjn/eslint-plugin": ["libs/etc/eslint-plugin/src/index.js"],
+      "@rishabhmhjn/linkinbio/ui/shared": [
+        "libs/linkinbio/ui/shared/src/index.ts"
+      ],
       "@rishabhmhjn/ui/lib1": ["libs/ui/lib1/src/index.ts"],
       "@rishabhmhjn/ui/lib2": ["libs/ui/lib2/src/index.ts"]
     }
