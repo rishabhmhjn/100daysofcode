@@ -64,7 +64,6 @@
     },
     "@nrwl/angular:component": {
       "style": "scss",
-      "prefix": "rm",
       "changeDetection": "OnPush",
       "standalone": true
     }

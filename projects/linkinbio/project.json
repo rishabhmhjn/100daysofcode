@@ -20,6 +20,9 @@
           "projects/linkinbio/src/assets"
         ],
         "styles": ["projects/linkinbio/src/styles.scss"],
+        "stylePreprocessorOptions": {
+          "includePaths": ["libs/linkinbio/ui/shared/src/styles"]
+        },
         "scripts": []
       },
       "configurations": {

@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+
+@use 'linkinbio-ui-shared/variables' as ui-shared-variables;
+
+@import 'linkinbio-ui-shared/theme';
+// @import '@rishabhmhjn/linkinbio/ui/shared/linkinbio-ui-shared';
+
+p {
+  font-weight: bold;
+  color: ui-shared-variables.$color-red;
+}
